@@ -92,7 +92,7 @@ $(".list-group").on("click", "p", function () {
 });
 
 // due date was clicked
-$(".list-group").on("click", "span", function () {debugger;
+$(".list-group").on("click", "span", function () {
   // get current text
   var date = $(this)
     .text()
@@ -121,7 +121,7 @@ $(".list-group").on("click", "span", function () {debugger;
 });
 
 // value of due date was changed
-$(".list-group").on("change", "input[type='text']", function () {debugger
+$(".list-group").on("change", "input[type='text']", function () {
 
   // get current text
   var date = $(this)
